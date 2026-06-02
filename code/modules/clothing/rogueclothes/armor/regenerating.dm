@@ -213,8 +213,8 @@
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/barbarian
 	name = "barbarian's skin"
 	desc = "Toughened from abuse. My mettle remains."
-	max_integrity = 200
-	repair_time = 25 SECONDS
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MEDIUM
+	repair_time = 20 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/berserker
 	name = "berserker's skin"

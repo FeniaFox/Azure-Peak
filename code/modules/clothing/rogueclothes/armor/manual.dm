@@ -31,7 +31,7 @@
 		return
 	qdel(src)
 
-/obj/item/clothing/suit/roguetown/armor/manual/proc/armour_regen(var/repair_percent = 0.2 * max_integrity)
+/obj/item/clothing/suit/roguetown/armor/manual/proc/armour_regen(var/repair_percent = 0.4 * max_integrity)
     if(obj_integrity >= max_integrity)
         to_chat(loc, span_notice(repairmsg_end))
     to_chat(loc, span_notice(repairmsg_continue))
@@ -58,10 +58,7 @@
 
 /obj/item/clothing/suit/roguetown/armor/manual/pushups/leather
 	armor = ARMOR_LEATHER
-
-/obj/item/clothing/suit/roguetown/armor/manual/pushups/leather/good // Honestly wasn't even sure what the diff was to the parent of this subtype, this one actually is GOOD and it's for Berzerker
-	armor = ARMOR_LEATHER
-	max_integrity = 400 //Now actually matches desciple and bersekers unarmed discpline armor int, drawback is it doesnt natrually regen without push-ups
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MEDIUM
 
 
 /*
