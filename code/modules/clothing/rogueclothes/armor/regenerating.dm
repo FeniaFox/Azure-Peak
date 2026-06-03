@@ -211,7 +211,7 @@
 	</br>I came here because I wanted purpose, something solid to believe in.\
 	</br>They tell me doubt is natural, and that understanding comes with time.\
 	</br>For now, I will listen, learn, and try to live in a way that does not waste what was given to us."
-	max_integrity = 275
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MEDIUM + 25
 	repair_time = 36 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/iconoclast
@@ -297,6 +297,6 @@
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/monk
 	name = "monk's skin"
 	desc = "Do you forsake protection for enlightenment, or in repentance for past transgressions?"
-	max_integrity = 250
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MEDIUM
 	repair_time = 36 SECONDS
 

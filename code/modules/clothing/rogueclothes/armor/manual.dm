@@ -31,7 +31,7 @@
 		return
 	qdel(src)
 
-/obj/item/clothing/suit/roguetown/armor/manual/proc/armour_regen(var/repair_percent = 0.4 * max_integrity)
+/obj/item/clothing/suit/roguetown/armor/manual/proc/armour_regen(var/repair_percent = 0.35 * max_integrity)
     if(obj_integrity >= max_integrity)
         to_chat(loc, span_notice(repairmsg_end))
     to_chat(loc, span_notice(repairmsg_continue))
@@ -58,7 +58,7 @@
 
 /obj/item/clothing/suit/roguetown/armor/manual/pushups/leather
 	armor = ARMOR_LEATHER
-	max_integrity = ARMOR_INT_CHEST_LIGHT_MEDIUM
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
 
 
 /*

@@ -103,10 +103,10 @@ third; SUNSET, little neat ability. it may be buggy. don't quote me on that. it 
 	repairmsg_continue = "Golden light seeps 'tween myne mending scales."
 	repairmsg_stop = "The onslaught stops my scales' regeneration!"
 	repairmsg_end = "My scales are as strong as stone once more!"
-	repair_time = 60 SECONDS
+	repair_time = 50 SECONDS
 	armor = ARMOR_PLATE //scalemail equivalent and ensures it takes dmg last
 	body_parts_covered = COVERAGE_ALL_BUT_HANDFEET | HANDS | FEET | COVERAGE_HEAD //all but eyes/nose, seems fair.
-	max_integrity = 500 //kinda snowflakey but after the armor rework, considering that this is full-body and will always absorb a hit; bc it's scale equivalent it will actually absorb nearly ALL of the dmg, so...
+	max_integrity = ARMOR_INT_CHEST_PLATE_STEEL //kinda snowflakey but after the armor rework, considering that this is full-body and will always absorb a hit; bc it's scale equivalent it will actually absorb nearly ALL of the dmg, so...
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/lirvas/Destroy() //this shouldn't happen, but just in case.....though maybe it'd be more sovl if it didn't...?
 	remove_broken_scales_buff()
