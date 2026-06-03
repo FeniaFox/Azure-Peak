@@ -201,10 +201,10 @@
 	</br>Happiness must be fought for."
 	armor = ARMOR_PADDED
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER + 100
-	repair_time = 28 SECONDS
+	repair_time = 28 SECONDS //should be 56s, but inquisition perks
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/monke
-	name = "initiate's skin"
+	name = "initiate's skin" //monks skin with 25 bonus integ
 	desc = "They say I've taken the first step on a path older than memory.\
 	</br>Aeon, Psydon, Adonai… I don't fully understand what those names mean yet, but I repeat them as I was taught.\
 	</br>The world is said to be held together by His sacrifice. I can't imagine something like that, but the Disciples say it is true.\
@@ -286,7 +286,7 @@
 	desc = "The flowing clouds of the Ruma are but fleeting shadow across the plains, pale imitation of Xinyi's spiritual alchemy. Imperfect, impotent. Their legend is one writ in avarice and hate.</br></br>Recount yours in love."
 	armor = ARMOR_LEATHER
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER + 150
-	repair_time = 30 SECONDS
+	repair_time = 30 SECONDS //should be 60s, but wretch perks
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/gladiator
 	name = "gladiator's skin"

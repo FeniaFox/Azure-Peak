@@ -60,6 +60,7 @@
 	armor = ARMOR_LEATHER
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
 
+///Regen calibrated so that it works out similarly to manual repair with apprentice sewing, at ~40s. 3x 10-11s pushup sets since they need breaks in between.
 
 /*
  * SEWABLE ARMOUR
