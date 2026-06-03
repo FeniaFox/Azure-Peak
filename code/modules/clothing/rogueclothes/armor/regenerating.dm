@@ -186,6 +186,11 @@
 	qdel(src)
 
 
+///Cloth/leather regenerating armor repair time based off the time to repair the item with apprentice sewing (halved for inquisition and wretch)
+///Metal regenerating armor repair time based off 30s default, +5s for every 50 integ over 300. (calibrated off apprentice weaponsmithing fullmending any metal item in approx ~34s on a table)
+///Thus passive regen takes about 5x longer than active repair, or 6x if fully broken (as first cycle only restores 5 integ)
+
+
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple
 	name = "disciple's skin"
 	desc = "It's far more than just an oath. \
@@ -195,8 +200,8 @@
 	</br>Heaven's gate closed to us long ago, yet His children persist; as as long as they do, so must I. \
 	</br>Happiness must be fought for."
 	armor = ARMOR_PADDED
-	max_integrity = 400
-	repair_time = 20 SECONDS
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER + 100
+	repair_time = 28 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/iconoclast
 	name = "dragon's skin"
@@ -213,8 +218,8 @@
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/barbarian
 	name = "barbarian's skin"
 	desc = "Toughened from abuse. My mettle remains."
-	max_integrity = ARMOR_INT_CHEST_LIGHT_MEDIUM
-	repair_time = 20 SECONDS
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
+	repair_time = 40 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/berserker
 	name = "berserker's skin"
@@ -234,26 +239,28 @@
 	blocking_behavior = SAMEWEAR
 	body_parts_covered = COVERAGE_VEST
 	body_parts_inherent = COVERAGE_VEST
-	max_integrity = 180
+	max_integrity = ARMOR_INT_CHEST_MEDIUM_IRON
+	repair_time = 30 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/bailiff
 	name = "executioneer's skin"
 	desc = "Bearing scars of countless whips leaves a gnarly visage. Now it's your time to inflict the same fate upon others."
-	max_integrity = 250
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
+	repair_time = 40 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/easttats
 	name = "bouhoi bujeog tattoos"
 	desc = "A mystic style of tattoos adopted by the Ruma Clan, emulating a practice performed by warrior monks of the Xinyi Dynasty. They are your way of identifying fellow clan members, a sign of companionship and secretive brotherhood. These are styled into the shape of clouds, created by a mystical ink which shifts and moves in ripples like a pond to harden where your skin is struck. Its movement causes you to shudder."
 	resistance_flags = FIRE_PROOF
 	icon_state = "easttats"
-	armor = ARMOR_PLATE
+	armor = ARMOR_MAILLE
 	body_parts_covered = COVERAGE_NEARLY_FULL
 	body_parts_inherent = COVERAGE_NEARLY_FULL
 	icon = 'icons/roguetown/clothing/shirts.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/shirts.dmi'
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_shirts.dmi'
 	//allowed_race = NON_DWARVEN_RACE_TYPES
-	max_integrity = 350
+	max_integrity = ARMOR_INT_CHEST_PLATE_STEELLIGHT
 
 	repairmsg_begin = "The tattoos begin to slowly mend their abuse..."
 	repairmsg_continue = "The tattoos mend some of their abuse..."
@@ -261,16 +268,17 @@
 	repairmsg_end = "The tattoos flow more calmly, as they finish resting and regain their strength."
 
 	interrupt_damount = 20
-	repair_time = 30 SECONDS
+	repair_time = 45 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/easttats/mistwalker
 	name = "seon-mul tattoos"
 	desc = "The flowing clouds of the Ruma are but fleeting shadow across the plains, pale imitation of Xinyi's spiritual alchemy. Imperfect, impotent. Their legend is one writ in avarice and hate.</br></br>Recount yours in love."
 	armor = ARMOR_LEATHER
-	max_integrity = 450
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER + 150
+	repair_time = 30 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/gladiator
 	name = "gladiator's skin"
 	desc = "Are you not entertained?!"
-	max_integrity = 200
-	repair_time = 25 SECONDS
+	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
+	repair_time = 40 SECONDS
