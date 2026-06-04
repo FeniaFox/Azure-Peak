@@ -119,7 +119,7 @@
 	name = "rough skin"
 	desc = ""
 	icon_state = null
-	armor = ARMOR_MAILLE
+	armor = ARMOR_BRIGANDINE
 	blocksound = SOFTHIT
 	blade_dulling = DULLING_BASHCHOP
 	slot_flags = ITEM_SLOT_SHIRT|ITEM_SLOT_ARMOR
@@ -132,14 +132,14 @@
 		/datum/species/dwarf/mountain
 		)
 	surgery_cover = FALSE 
-	max_integrity = 135
+	max_integrity = ARMOR_INT_CHEST_PLATE_BRIGANDINE
 	sewrepair = FALSE
 	repairmsg_begin = "The thick skin cover starts to bulge and repair tears"
 	repairmsg_continue = "More of the tears on the skin close up"
 	repairmsg_stop = "A firm blow undoes some of the fresh skin you've grown!"
 	repairmsg_end = "Your skin looks just as shiny as ever, like it might stop the blow of a fully grown troll once more."
 
-	interrupt_damount = 25
+	interrupt_damount = 20
 	repair_time = 35 SECONDS
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/slayer/Initialize(mapload)

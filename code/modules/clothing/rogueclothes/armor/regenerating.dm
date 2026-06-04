@@ -190,6 +190,7 @@
 ///Metal regenerating armor repair time based off 30s default, +5s for every 50 integ over 300. (calibrated off apprentice weaponsmithing fullmending any metal item in approx ~34s on a table)
 ///Thus passive regen takes about 5x longer than active repair, or 6x if fully broken (as first cycle only restores 5 integ)
 
+///Slayer & Tithebound skin armors are stored seperately in the role files.
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple
 	name = "disciple's skin"
@@ -201,7 +202,7 @@
 	</br>Happiness must be fought for."
 	armor = ARMOR_PADDED
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER + 100
-	repair_time = 28 SECONDS //should be 56s, but inquisition perks
+	repair_time = 28 SECONDS //should be 56s, but inquisition perks (and wretch perks for the berzerker who inherits this)
 
 /obj/item/clothing/suit/roguetown/armor/regenerating/skin/disciple/monke
 	name = "initiate's skin" //monks skin with 25 bonus integ
