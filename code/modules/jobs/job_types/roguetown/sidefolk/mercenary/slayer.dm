@@ -132,7 +132,7 @@
 		/datum/species/dwarf/mountain
 		)
 	surgery_cover = FALSE 
-	max_integrity = ARMOR_INT_CHEST_PLATE_BRIGANDINE
+	max_integrity = ARMOR_INT_CHEST_PLATE_BRIGANDINE - ARMOR_INT_CHEST_PLATE_BRIGANDINE_WEIGHT_MODIFIER ///going with light brig to be on the safe side.
 	sewrepair = FALSE
 	repairmsg_begin = "The thick skin cover starts to bulge and repair tears"
 	repairmsg_continue = "More of the tears on the skin close up"
