@@ -120,6 +120,7 @@
 	desc = ""
 	icon_state = null
 	armor = ARMOR_BRIGANDINE
+	armor_class = ARMOR_CLASS_LIGHT
 	blocksound = SOFTHIT
 	blade_dulling = DULLING_BASHCHOP
 	slot_flags = ITEM_SLOT_SHIRT|ITEM_SLOT_ARMOR
