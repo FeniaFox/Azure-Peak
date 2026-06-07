@@ -240,6 +240,11 @@
 	icon_state = "albootsb"
 	item_state = "albootsb"
 
+/obj/item/clothing/shoes/roguetown/boots/leather/reinforced/heavy
+	name = "hardened leather boots"
+	desc = "A pair of heavy leather boots. Stiff and protective, yet flexing nicely once broken in."
+	max_integrity = ARMOR_INT_SIDE_HARDLEATHER
+
 /obj/item/clothing/shoes/roguetown/boots/otavan
 	name = "otavan leather boots"
 	desc = "Boots of outstanding craft, your fragile feet have never felt so protected and comfortable before."

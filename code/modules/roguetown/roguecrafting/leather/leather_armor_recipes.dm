@@ -145,6 +145,16 @@
 		)
 	craftdiff = 4
 
+/datum/crafting_recipe/roguetown/leather/armor/heavy_leather_armor/jacket
+	name = "fitted hardened leather jacket"
+	result = /obj/item/clothing/suit/roguetown/armor/leather/heavy/jacket
+	reqs = list(
+		/obj/item/natural/hide/cured = 3,
+		/obj/item/reagent_containers/food/snacks/tallow = 1,
+		/obj/item/natural/fibers = 2,
+		)
+	craftdiff = 5 //fancy variant that can fit in shirt slot, so justifies being harder to make.
+
 /datum/crafting_recipe/roguetown/leather/armor/helmet
 	name = "leather helmet"
 	display_category = ITEM_CAT_ARMOR_HELMETS

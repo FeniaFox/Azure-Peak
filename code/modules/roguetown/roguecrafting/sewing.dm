@@ -1107,6 +1107,15 @@
 				/obj/item/natural/fibers = 5)
 	craftdiff = 4 //highest possible light-armor integ on a shirt layer, so should take some work
 
+/datum/crafting_recipe/roguetown/sewing/qgambeson
+	name = "quilted gambeson" //when your gambeson gets too fat to fit in the shirt slot. 400 integ vs padded gamby's 300.
+	category = "Gambesons"
+	display_category = ITEM_CAT_ARMOR_LIGHT
+	result = list(/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/quilted)
+	reqs = list(/obj/item/natural/cloth = 8,
+				/obj/item/natural/fibers = 5) //more than this would be silly, can suppose there's less wastage to trimming since the bulk is a feature of the thing.
+	craftdiff = 3 //not that hard to make, just needs a lot of material.
+
 /datum/crafting_recipe/roguetown/sewing/monkwraps
 	name = "padded arm wrappings"
 	category = "Bracers"
