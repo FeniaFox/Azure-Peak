@@ -197,7 +197,7 @@
 
 /obj/item/clothing/suit/roguetown/armor/leather/heavy/jacket/fitted
 	name = "fitted leather jacket"
-	desc = "A form-fitting leather jacket crafted to sit under additional layers of armor."
+	desc = "A form-fitting jacket of hardened leather, crafted to sit under additional layers of armor."
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_SHIRT
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER - 50 //Token penalty due to being able to fit in shirt slot, just so people use the normal one for the armor slot, given the choice. Is also more expensive and harder to craft.
 
