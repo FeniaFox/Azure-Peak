@@ -1108,7 +1108,7 @@
 	craftdiff = 4 //highest possible light-armor integ on a shirt layer, so should take some work
 
 /datum/crafting_recipe/roguetown/sewing/qgambeson
-	name = "quilted gambeson" //when your gambeson gets too fat to fit in the shirt slot. 400 integ vs padded gamby's 300.
+	name = "quilted gambeson" //when your gambeson gets too fat to fit in the shirt slot.
 	category = "Gambesons"
 	display_category = ITEM_CAT_ARMOR_LIGHT
 	result = list(/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/quilted)

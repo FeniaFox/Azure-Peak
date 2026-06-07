@@ -90,7 +90,7 @@
 	contains = list(/obj/item/clothing/suit/roguetown/armor/leather/studded)
 
 /datum/supply_pack/rogue/light_armor/quilted_gambeson
-	name = "Armor, Quilted Gambeson" //Sidegrade of padded gambeson that goes from 300 to 400 integ, but cannot fit in shirt slot. Named like this so its clearer in the silverface that you cannot put it under your armor.
+	name = "Armor, Quilted Gambeson" //Sidegrade of padded gambeson that goes from 300 to 375 integ, but cannot fit in shirt slot. Named like this so its clearer in the silverface that you cannot put it under your armor.
 	cost = 65
 	contains = list(/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/quilted)
 
@@ -133,7 +133,7 @@
 
 /datum/supply_pack/rogue/light_armor/fitted_leather_jacket
 	name = "Fitted Jacket, Hardened Leather"
-	cost = 60 //It is a leather jacket that can fit in shirt slot, albiet with a token integ penalty. 50% more expensive.
+	cost = 60 //It is a leather jacket that can fit in shirt slot, albiet with a modest integ penalty. 50% more expensive.
 	contains = list(/obj/item/clothing/suit/roguetown/armor/leather/heavy/jacket/fitted)
 
 /datum/supply_pack/rogue/light_armor/lightgambeson
@@ -163,7 +163,7 @@
 
 /datum/supply_pack/rogue/light_armor/padded_arming_jacket
 	name = "Arming Jacket, Padded"
-	cost = 75 // padded gambeson equiv. that trades leg protection for 75 more integ (375 vs 300), touch pricier.
+	cost = 70 // padded gambeson equiv. that trades leg protection for 50 more integ (350 vs 300), touch pricier.
 	contains = list(/obj/item/clothing/suit/roguetown/armor/gambeson/lord/heavy)
 
 ///Leg slot
