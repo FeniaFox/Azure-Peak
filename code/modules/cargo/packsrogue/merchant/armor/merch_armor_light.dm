@@ -91,7 +91,7 @@
 
 /datum/supply_pack/rogue/light_armor/quilted_gambeson
 	name = "Armor, Quilted Gambeson" //Sidegrade of padded gambeson that goes from 300 to 400 integ, but cannot fit in shirt slot. Named like this so its clearer in the silverface that you cannot put it under your armor.
-	cost = 60
+	cost = 65
 	contains = list(/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/quilted)
 
 /datum/supply_pack/rogue/light_armor/dobo_robe
