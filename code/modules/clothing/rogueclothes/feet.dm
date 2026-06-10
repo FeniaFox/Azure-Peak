@@ -226,11 +226,11 @@
 	AddComponent(/datum/component/armour_filtering/positive, TRAIT_HONORBOUND)
 
 /obj/item/clothing/shoes/roguetown/boots/leather/reinforced
-	name = "heavy leather boots"
+	name = "hardened leather boots"
 	desc = "Sturdy boots stitched together from cured leather. Stylish, firm, and sport a satisfying 'squeek' with each step."
 	icon_state = "alboots"
 	item_state = "alboots"
-	max_integrity = 100			//Half that of iron boots
+	max_integrity = ARMOR_INT_SIDE_HARDLEATHER
 	armor = ARMOR_LEATHER			//Better than regular leather.
 	color = null
 
@@ -239,11 +239,6 @@
 	desc = "A pair of sturdy boots stitched together from cured leather. These are shorter than usual, made for casual wear and dueling."
 	icon_state = "albootsb"
 	item_state = "albootsb"
-
-/obj/item/clothing/shoes/roguetown/boots/leather/reinforced/heavy
-	name = "hardened leather boots"
-	desc = "A pair of heavy leather boots. Stiff and protective, yet flexing nicely once broken in."
-	max_integrity = ARMOR_INT_SIDE_HARDLEATHER
 
 /obj/item/clothing/shoes/roguetown/boots/otavan
 	name = "otavan leather boots"

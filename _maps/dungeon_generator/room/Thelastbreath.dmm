@@ -1441,7 +1441,7 @@
 "uf" = (
 /obj/effect/mapping_helpers/floor_clothing_equipper,
 /obj/item/clothing/gloves/roguetown/plate/paalloy,
-/obj/item/clothing/shoes/roguetown/boots/leather/reinforced,
+/obj/item/clothing/shoes/roguetown/boots/leather,
 /obj/item/clothing/under/roguetown/platelegs/paalloy,
 /obj/item/clothing/neck/roguetown/chaincoif,
 /obj/item/clothing/ring/quartz,

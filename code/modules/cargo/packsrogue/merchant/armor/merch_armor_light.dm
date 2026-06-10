@@ -200,14 +200,9 @@
 ///Feet slot
 
 /datum/supply_pack/rogue/light_armor/reinforced_leather_boots
-	name = "Boots, Heavy leather"
-	cost = 18
+	name = "Boots, Hardened leather"
+	cost = 24
 	contains = list(/obj/item/clothing/shoes/roguetown/boots/leather/reinforced)
-
-/datum/supply_pack/rogue/light_armor/heavy_leather_boots
-	name = "Boots, Hardened Leather"
-	cost = 30
-	contains = list(/obj/item/clothing/shoes/roguetown/boots/leather/reinforced/heavy)
 
 ///Utility 
 

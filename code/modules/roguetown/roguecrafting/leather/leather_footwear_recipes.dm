@@ -14,25 +14,18 @@
 	result = /obj/item/clothing/shoes/roguetown/boots/leather
 
 /datum/crafting_recipe/roguetown/leather/footwear/boots_heavy
-	name = "heavy leather boots"
+	name = "hardened leather boots"
 	result = /obj/item/clothing/shoes/roguetown/boots/leather/reinforced
 	reqs = list(/obj/item/natural/hide/cured = 1,
 				/obj/item/natural/fur = 1)
-	craftdiff = 2	//Has significantly less integ than hardened leather items.
+	craftdiff = 3	//Same as hardened leather gloves
 
 /datum/crafting_recipe/roguetown/leather/footwear/boots_heavy_b
 	name = "dress boots"
 	result = /obj/item/clothing/shoes/roguetown/boots/leather/reinforced/short
 	reqs = list(/obj/item/natural/hide/cured = 1,
 				/obj/item/natural/fur = 1)
-	craftdiff = 2
-
-/datum/crafting_recipe/roguetown/leather/footwear/boots_hardened
-	name = "heavy leather boots"
-	result = /obj/item/clothing/shoes/roguetown/boots/leather/reinforced/heavy
-	reqs = list(/obj/item/natural/hide/cured = 2,
-				/obj/item/natural/fur = 1)
-	craftdiff = 3	//Same as the hardened leather gloves.
+	craftdiff = 3
 
 /datum/crafting_recipe/roguetown/leather/footwear/boots/furlinedboots
 	name = "fur-lined boots"
