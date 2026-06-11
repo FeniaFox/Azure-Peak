@@ -582,6 +582,7 @@
 	item_state = "eastsandals"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
 	armor = ARMOR_LEATHER
+	max_integrity = ARMOR_INT_SIDE_HARDLEATHER
 	sewrepair = TRUE
 
 /obj/item/clothing/shoes/roguetown/armor/rumaclan/shitty
